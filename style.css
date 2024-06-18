@@ -67,6 +67,13 @@ nav{
     align-items: center;
 }
 
+.ppp{
+    text-align: left;
+    font-size: 18px;
+    width: 800px;
+    margin: 0 auto;
+}
+
 .main img{
     width: 60%;
     filter: drop-shadow(10px 6px 6px #c3c3c3);
@@ -76,5 +83,9 @@ footer{
     font-family: SUITE;
     font-weight: 100;
     text-align: center;
-    margin-top: 50px;
+    margin: 50px;
+}
+
+.foot{
+    margin-top: 8%;
 }
