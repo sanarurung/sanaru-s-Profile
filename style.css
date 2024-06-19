@@ -21,8 +21,8 @@
         background-color: white;
         margin: 0px;
         font-family: Pretendard;
-        max-width: 768px;
-        max-height: 768px;
+        max-width: 100%;
+        max-height: 100%;
     }
 
     nav{
@@ -68,7 +68,23 @@
         justify-content: center;
         align-items: center;
     }
+
+    .main-sub-text-for-ppp{
+        display: flex;
+        font-size: 7px;
+        font-weight: 400;
+        justify-content: center;
+        align-items: center;
+    }
     
+    .main-link{
+        display: none;
+    }
+
+    .main-link-a{
+        display: flex;
+    }
+
     .ppp{
         text-align: left;
         font-size: 10px;
@@ -145,6 +161,18 @@ nav{
     font-weight: 400;
     justify-content: center;
     align-items: center;
+}
+
+.main-sub-text-for-ppp{
+    display: flex;
+    font-size: 30px;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-link-a{
+    display: none;
 }
 
 .ppp{
