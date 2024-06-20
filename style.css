@@ -20,7 +20,7 @@
     body {
         background-color: white;
         margin: 0px;
-        font-family: 'Pretendard-Regular', 'SUIT-Regular', 'SUITE-Regular';
+        font-family: 'SUITE';
         max-width: 100%;
         max-height: 100%;
     }
@@ -105,6 +105,105 @@
         margin-top: 8%;
     }
     
+    .inquiry-input{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 1%;
+    }
+    
+    .inquiry-input input {
+        font-family: 'SUITE';
+        width: 50%;
+        height: 40px;
+        font-size: 17px;
+        border: 0;
+        border-radius: 15px;
+        outline: none;
+        padding-left: 10px;
+        background-color: rgb(233, 233, 233);
+    }
+    
+    .inquiry-input-des{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 1%;
+    }
+    
+    .inquiry-input-des textarea {
+        font-family: 'SUITE';
+        width: 50%;
+        height: 100px;
+        font-size: 17px;
+        border: 0;
+        border-radius: 15px;
+        outline: none;
+        padding-left: 10px;
+        background-color: rgb(233, 233, 233);
+        resize: none;
+    }
+    
+    .inquiry-input-check{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 1%;
+    }
+    
+    .inquiry-input-check input {
+        font-family: 'SUITE';
+        font-size: 17px;
+        border: 0;
+        border-radius: 15px;
+        outline: none;
+        padding-left: 10px;
+        background-color: rgb(233, 233, 233);
+    }
+    
+    .inquiry-input-sumbit{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 1%;
+    }
+    
+    .inquiry-input-sumbit input {
+        font-family: 'SUITE';
+        width: 50%;
+        height: 40px;
+        font-size: 17px;
+        border: 0;
+        border-radius: 15px;
+        outline: none;
+        padding-left: 10px;
+        background-color: rgb(233, 233, 233);
+    }
+    
+    .description{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        text-align: left;
+    }
+
+    .channel-list{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .mariel-des{
+        text-align: center;
+        width: 100%;
+        padding-top: 15%;
+        font-size: 25px;
+    }
+
     }
 
 
@@ -114,7 +213,7 @@
 body {
     background-color: white;
     margin: 0px;
-    font-family: 'Pretendard-Regular', 'SUIT-Regular', 'SUITE-Regular';
+    font-family: 'SUITE';
     max-width: 100%;
     max-height: 100%;
     
@@ -196,6 +295,110 @@ footer{
 
 .foot{
     margin-top: 8%;
+}
+
+.inquiry-input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1%;
+}
+
+.inquiry-input input {
+    font-family: 'SUITE';
+    width: 20%;
+    height: 40px;
+    font-size: 17px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+}
+
+.inquiry-input-des{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1%;
+}
+
+.inquiry-input-des textarea {
+    font-family: 'SUITE';
+    width: 20%;
+    height: 100px;
+    font-size: 17px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+    resize: none;
+}
+
+.inquiry-input-check{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1%;
+}
+
+.inquiry-input-check input {
+    font-family: 'SUITE';
+    font-size: 17px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+}
+
+.inquiry-input-sumbit{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1%;
+}
+
+.inquiry-input-sumbit input {
+    font-family: 'SUITE';
+    width: 20%;
+    height: 40px;
+    font-size: 17px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    text-align: left;
+}
+
+.channel-list{
+    display: flex;
+    justify-content: center;
+}
+
+.mariel-des{
+    text-align: center;
+    width: 100%;
+    padding-top: 15%;
+    font-size: 25px;
+}
+
+.timer-a {
+    text-align: center;
+    color: rgb(233, 233, 233);
 }
 
 }
