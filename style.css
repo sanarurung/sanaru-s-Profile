@@ -20,7 +20,7 @@
     body {
         background-color: white;
         margin: 0px;
-        font-family: Pretendard;
+        font-family: 'Pretendard-Regular', 'SUIT-Regular', 'SUITE-Regular';
         max-width: 100%;
         max-height: 100%;
     }
@@ -34,10 +34,9 @@
     .navigaion a{
         padding: 5px;
         font-weight: 400;
-        font-family: SUITE;
         font-weight: 500;
         text-decoration-line : none;
-        color: inherit
+        color: inherit;
     }
     
     .navigaion{
@@ -49,7 +48,6 @@
     .main{
         margin-top: 8%;
         font-size: 70px;
-        font-family: SUITE;
         font-weight: 800;
         color: black;
         display: flex;
@@ -116,7 +114,7 @@
 body {
     background-color: white;
     margin: 0px;
-    font-family: Pretendard;
+    font-family: 'Pretendard-Regular', 'SUIT-Regular', 'SUITE-Regular';
     max-width: 100%;
     max-height: 100%;
     
@@ -132,10 +130,9 @@ nav{
 .navigaion a{
     padding: 5px;
     font-weight: 400;
-    font-family: SUITE;
     font-weight: 500;
     text-decoration-line : none;
-    color: inherit
+    color: inherit;
 }
 
 .navigaion{
@@ -147,7 +144,6 @@ nav{
 .main{
     margin-top: 8%;
     font-size: 70px;
-    font-family: SUITE;
     font-weight: 800;
     color: black;
     display: flex;
@@ -171,8 +167,12 @@ nav{
     align-items: center;
 }
 
-.main-link-a{
+.main-link{
     display: none;
+}
+
+.main-link-a{
+    display: flex;
 }
 
 .ppp{
@@ -188,7 +188,7 @@ nav{
 }
 
 footer{
-    font-family: SUITE;
+    font-family: SUIT;
     font-weight: 100;
     text-align: center;
     margin: 50px;
