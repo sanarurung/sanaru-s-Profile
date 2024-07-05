@@ -22,7 +22,7 @@ function sendMessage() {
 
         const params = {
             username: "sanaru.me webhook",
-            avatar_url: "sanaru.me/source/webhook-image.png",
+            avatar_url: "https://sanaru.me/source/webhook-image.png",
             embeds: [
                 {
                 title: "믹싱 커미션!",
