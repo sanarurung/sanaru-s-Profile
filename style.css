@@ -17,6 +17,10 @@
 }
 
 @media (min-height: 375px) and (max-height: 768px) and (min-width: 375px) and (max-width: 768px), screen and (orientation: portrait){
+    .App{
+        white-space: pre-line
+    }
+
     body {
         background-color: white;
         margin: 0px;
@@ -236,6 +240,12 @@
 
 @media all and (min-width: 768px)    {
 
+    .App{
+        white-space: pre-line
+    }
+
+
+
 body {
     background-color: white;
     margin: 0px;
@@ -401,6 +411,28 @@ footer{
     padding-left: 10px;
     background-color: rgb(233, 233, 233);
 }
+
+.inquiry-input-sclect-option{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1%;
+}
+
+.inquiry-input-sclect-option select {
+    font-family: 'SUITE';
+    width: 20%;
+    height: 40px;
+    font-size: 17px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+}
+
+
 
 .description{
     display: flex;

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sanaru's Profile</title>
     <link rel="stylesheet" href="style.css">
-    <script src="arlet.js"></script>
+    <script src="webhook.js"></script>
 </head>
 <body>
     <nav>
@@ -45,15 +45,34 @@
             <div class="inquiry-input">
                 <input id="discord-id" type="text" placeholder="Discord 아이디">
             </div>
-            <div class="inquiry-input-des">
+            <!--<div class="inquiry-input-des">
                 <textarea id="descripton" type="text" placeholder="추가 기재사항"></textarea>
+            </div>-->
+            <div class="inquiry-input-sclect-option">
+                <label for="inquiry-option"></label>
+                <select name="option" id="option">
+                    <option value="선택 안 함">필수 옵션</option>
+                    <option value="솔로 1절 (+15000원)">솔로 1절 (+15000원)</option>
+                    <option value="솔로 완곡 (+35000원)">솔로 완곡 (+35000원)</option>
+                </select>
             </div>
-            <div class="inquiry-input-check">
-                <input id="check" type="checkbox">
-                <span><a>개인정보 수집 이용에 동의하십니까?</a></span>
+            <div class="inquiry-input-sclect-option">
+                <label for="inquiry-option"></label>
+                <select name="plus-option" id="plus-option">
+                    <option value="선택 안 함">추가 옵션</option>
+                    <option value="화음 제작 (+5000원)">화음 제작 (+5000원)</option>
+                </select>
+            </div>
+            <div class="inquiry-input-sclect-option">
+                <label for="inquiry-option"></label>
+                <select name="magam-option" id="magam-option">
+                    <option value="선택 안 함">빠른 마감 옵션</option>
+                    <option value="5일 이내 (+8000원)">5일 이내 (+8000원)</option>
+                    <option value="3일 이내 (+12000원)">3일 이내 (+12000원)</option>
+                </select>
             </div>
             <div class="inquiry-input-sumbit">
-                <input id="sumbit" type="submit">
+                <input id="sumbit" type="submit" onclick="sendMessage()">
             </div>
         </div>
 
