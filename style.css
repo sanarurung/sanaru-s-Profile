@@ -234,6 +234,27 @@
         font-size: 15px;
     }
 
+    .inquiry-input-sclect-option{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 1%;
+    }
+    
+    .inquiry-input-sclect-option select {
+        font-family: 'SUITE';
+        width: 50%;
+        height: 40px;
+        font-size: 17px;
+        border: 0;
+        border-radius: 15px;
+        outline: none;
+        padding-left: 10px;
+        background-color: rgb(233, 233, 233);
+    }
+    
+
     }
 
 
