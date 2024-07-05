@@ -17,17 +17,22 @@ function sendMessage() {
         const option = document.getElementById('option').value;
         const plusoption = document.getElementById('plus-option').value;
         const magam = document.getElementById('magam-option').value;
+        const cover = document.getElementById('cover-song-name').value
+        var a = false;
 
         const params = {
-            username: "웹후크 알람",
+            username: "sanaru.me webhook",
             avatar_url: "",
             embeds: [
                 {
-                title: "리퀘스트 도착!",
-                description: `이메일: ${email}\n닉네임: ${nikname}\n디스코드 아이디: ${discord}\n믹싱 옵션: ${option}\n추가 옵션: ${plusoption}\n마감 옵션: ${magam}`,
+                title: "믹싱 커미션!",
+                description: `이메일: ${email}\n닉네임: ${nikname}\n디스코드 아이디: ${discord}\n노래 이름: ${cover}\n믹싱 옵션: ${option}\n추가 옵션: ${plusoption}\n마감 옵션: ${magam}`,
             }
             ]
           }
           
     request.send(JSON.stringify(params));
+    alert('입력하신 정보가 전송되었습니다.\n신청해주셔서 감사합니다.\nsanaru@mxcreate.kr로 연락드리겠습니다.')
+    
 }
+
