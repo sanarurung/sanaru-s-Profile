@@ -604,4 +604,14 @@ footer{
     width: 50%;
 }
 
+.page-selector{
+    text-align: center;
+    font-size: 20px;
+}
+
+.page-selector a{
+    margin: 7px;
+    text-decoration-line: none;
+}
+
 }
