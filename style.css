@@ -1,19 +1,10 @@
 /*Web Font*/
 @font-face {
-    font-family: 'Pretendard-Regular';
-    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
 
-    font-family: 'SUIT-Regular';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-
-    font-family: 'SUITE-Regular';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
+    font-family: 'NEXON Lv1 Gothic';
+    font-style: 'Regular';
+    src: local("NEXON Lv1 Gothic"), format('opentype'),
+    url('./source/font/NEXON Lv2 Gothic OTF.otf');
 }
 
 @media (min-height: 375px) and (max-height: 768px) and (min-width: 375px) and (max-width: 768px), screen and (orientation: portrait){
@@ -24,7 +15,7 @@
     body {
         background-color: white;
         margin: 0px;
-        font-family: 'SUITE';
+        font-family: 'NEXON Lv1 Gothic';
         max-width: 100%;
         max-height: 100%;
     }
@@ -99,7 +90,7 @@
     }
     
     footer{
-        font-family: SUITE;
+        font-family: "NEXON Lv1 Gothic";
         font-weight: 100;
         text-align: center;
         margin: 50px;
@@ -118,7 +109,7 @@
     }
     
     .inquiry-input input {
-        font-family: 'SUITE';
+        font-family: 'NEXON Lv1 Gothic';
         width: 50%;
         height: 40px;
         font-size: 17px;
@@ -138,7 +129,7 @@
     }
     
     .inquiry-input-des textarea {
-        font-family: 'SUITE';
+        font-family: 'NEXON Lv1 Gothic';
         width: 50%;
         height: 100px;
         font-size: 17px;
@@ -159,7 +150,7 @@
     }
     
     .inquiry-input-check input {
-        font-family: 'SUITE';
+        font-family: 'NEXON Lv1 Gothic';
         font-size: 17px;
         border: 0;
         border-radius: 15px;
@@ -177,7 +168,7 @@
     }
     
     .inquiry-input-sumbit input {
-        font-family: 'SUITE';
+        font-family: 'NEXON Lv1 Gothic';
         width: 50%;
         height: 40px;
         font-size: 17px;
@@ -243,7 +234,7 @@
     }
     
     .inquiry-input-sclect-option select {
-        font-family: 'SUITE';
+        font-family: 'NEXON Lv1 Gothic';
         width: 50%;
         height: 40px;
         font-size: 17px;
@@ -327,7 +318,7 @@
 body {
     background-color: white;
     margin: 0px;
-    font-family: 'SUITE';
+    font-family: 'NEXON Lv1 Gothic';
     max-width: 100%;
     max-height: 100%;
     
@@ -401,7 +392,7 @@ nav{
 }
 
 footer{
-    font-family: SUIT;
+    font-family: 'NEXON Lv1 Gothic';
     font-weight: 100;
     text-align: center;
     margin: 50px;
@@ -420,7 +411,7 @@ footer{
 }
 
 .inquiry-input input {
-    font-family: 'SUITE';
+    font-family: 'NEXON Lv1 Gothic';
     width: 20%;
     height: 40px;
     font-size: 17px;
@@ -440,7 +431,7 @@ footer{
 }
 
 .inquiry-input-des textarea {
-    font-family: 'SUITE';
+    font-family: 'NEXON Lv1 Gothic';
     width: 20%;
     height: 100px;
     font-size: 17px;
@@ -461,7 +452,7 @@ footer{
 }
 
 .inquiry-input-check input {
-    font-family: 'SUITE';
+    font-family: 'NEXON Lv1 Gothic';
     font-size: 17px;
     border: 0;
     border-radius: 15px;
@@ -479,7 +470,7 @@ footer{
 }
 
 .inquiry-input-sumbit input {
-    font-family: 'SUITE';
+    font-family: 'NEXON Lv1 Gothic';
     width: 20%;
     height: 40px;
     font-size: 17px;
@@ -499,7 +490,7 @@ footer{
 }
 
 .inquiry-input-sclect-option select {
-    font-family: 'SUITE';
+    font-family: 'NEXON Lv1 Gothic';
     width: 20%;
     height: 40px;
     font-size: 17px;
