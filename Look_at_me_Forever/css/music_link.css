@@ -1,0 +1,310 @@
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0px;
+    max-width: 100%;
+    max-height: 100%;
+    font-family: NanumSquareRound;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+}
+
+.main{
+    position: relative;
+
+}
+
+.background-img{
+    width: 100%;
+    height: 100%;
+    filter: blur(30px);
+    position: fixed;
+}
+
+.album-cover{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    position: absolute;
+    filter: drop-shadow(12px 13px 23px #4f4f4f);
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+}
+
+.flatform-box-start{
+    background-color: #292929;
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -150%);
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 20px 20px 0px 0px;
+    cursor: pointer;
+}
+
+.flatform-box-start:hover{
+    background-color: #444444;
+}
+
+.youtube-music-1{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-right: 0px;
+    margin-left: 40px;
+}
+
+.box{
+    display: flex;
+}
+
+
+.youtube-goto{
+    margin: auto;
+    text-decoration-line: none;
+    color: white;
+    margin-left: 320px;
+}
+
+.flatform-box-melon{
+    background-color: #292929;
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.flatform-box-melon:hover{
+    background-color: #444444;
+}
+
+.melon{
+    width: 100px;
+    margin: auto;
+    margin-right: 0px;
+    margin-left: 40px;
+}
+
+.melon-goto{
+    margin: auto;
+    text-decoration-line: none;
+    color: white;
+    margin-left: 270px;
+}
+
+.flatform-box-flo{
+    background-color: #292929;
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.flatform-box-flo:hover{
+    background-color: #444444;
+}
+
+.flo{
+    width: 100px;
+    margin: auto;
+    margin-right: 0px;
+    margin-left: 40px;
+}
+
+.flo-goto{
+    margin: auto;
+    text-decoration-line: none;
+    color: white;
+    margin-left: 270px;
+}
+
+.flatform-box-genie{
+    background-color: #292929;
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 150%);
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.flatform-box-genie:hover{
+    background-color: #444444;
+}
+
+.genie{
+    width: 100px;
+    margin: auto;
+    margin-right: 0px;
+    margin-left: 40px;
+}
+
+.genie-goto{
+    margin: auto;
+    text-decoration-line: none;
+    color: white;
+    margin-left: 270px;
+}
+
+.flatform-box-vive{
+    background-color: #292929;
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 250%);
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.flatform-box-vive:hover{
+    background-color: #444444;
+}
+
+.vive{
+    width: 100px;
+    margin: auto;
+    margin-right: 0px;
+    margin-left: 40px;
+}
+
+.vive-goto{
+    margin: auto;
+    text-decoration-line: none;
+    color: white;
+    margin-left: 270px;
+}
+
+.flatform-box-bugs{
+    background-color: #292929;
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 350%);
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.flatform-box-bugs:hover{
+    background-color: #444444;
+}
+
+.bugs{
+    width: 100px;
+    margin: auto;
+    margin-right: 0px;
+    margin-left: 40px;
+}
+
+.bugs-goto{
+    margin: auto;
+    text-decoration-line: none;
+    color: white;
+    margin-left: 270px;
+}
+
+.flatform-box-applemusic{
+    background-color: #292929;
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 450%);
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.flatform-box-applemusic:hover{
+    background-color: #444444;
+}
+
+.applemusic{
+    width: 100px;
+    margin: auto;
+    margin-right: 0px;
+    margin-left: 40px;
+}
+
+.applemusic-goto{
+    margin: auto;
+    text-decoration-line: none;
+    color: white;
+    margin-left: 270px;
+}
+
+.flatform-box-spotify{
+    background-color: #292929;
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 550%);
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.flatform-box-spotify:hover{
+    background-color: #444444;
+}
+
+.spotify{
+    width: 100px;
+    margin: auto;
+    margin-right: 0px;
+    margin-left: 40px;
+}
+
+.spotify-goto{
+    margin: auto;
+    text-decoration-line: none;
+    color: white;
+    margin-left: 270px;
+}
+
+
+.music-stream{
+    width: 500px;
+    margin: auto;
+}
+
+.footer1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 3500%);
+}

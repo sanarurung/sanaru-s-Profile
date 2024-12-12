@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "NanumSquareRoundB";
+    src: url("./font/NanumSquareRoundOTFB.otf") format("opentype");
+    font-style: bold;
+}
+
+* {
+    font-family: "NanumSquareRoundB";
+}
+
+
+.popup{
+    display: none;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: rgba(0,0,0,0.5);
+}
+
+.popup div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(180deg, rgba(250,250,252,1) 60%, rgba(242,242,242,1) 100%);
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 50px;
+    
+}
+
+.popup_title{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    text-align: center;
+    line-height : 300px;
+    transform: translateY(-100px)
+}
+
+.popup_des{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-190px)
+}
+
+.popup_close{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items:center;
+    width: 150px;
+    height: 35px;
+    margin: 0 auto;
+    font-size: 20px;
+    background-color: rgb(255, 94, 94);
+    border: 0px;
+    border-radius: 20px;
+    position: relative;
+    top: -125px;
+    transform: scale(1.0);
+    transition: all ease-in 200ms;
+}
+
+.popup_close:hover{
+    transform: scale(1.2);
+    transition: all ease-in 200ms ;
+}
+
+.ERRCD{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-160px)
+}
