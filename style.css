@@ -7,6 +7,15 @@
     url('./source/font/NEXON Lv2 Gothic OTF.otf');
 }
 
+@font-face {
+    font-family: 'NotoSansKR';
+    font-size: 'Regular';
+    src: local("NotoSansKR"), format('truetype'),
+    url('./source/font/NotoSansKR-Regular.ttf');
+}
+    
+
+
 @media (min-height: 375px) and (max-height: 768px) and (min-width: 375px) and (max-width: 768px), screen and (orientation: portrait){
     .App{
         white-space: pre-line
@@ -613,6 +622,114 @@ footer{
 .page-selector a{
     margin: 7px;
     text-decoration-line: none; 
+}
+
+/*공지 글 양식*/
+
+.notice-title{
+    font-size: 55px;
+   
+}
+
+.notice-hr{
+    width: 1200px;
+}
+
+
+/*프로필 페이지*/
+
+.Profile {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 55px;
+}
+
+.name {
+    font-size: 30px;
+}
+
+.name a {
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.name li {
+    font-weight: normal;
+}
+
+.name-des {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.academic{
+    font-size: 30px;
+}
+
+.academic a{
+    font-weight: bold;
+}
+
+.academic-des{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.Career{
+    font-size: 30px;
+}
+
+.Career a{
+    font-weight: bold;
+}
+
+.Career li{
+    font-size: 20px;
+}
+
+.Career-des {
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.Other {
+    font-size: 30px;
+}
+
+.Other a{
+    font-weight: bold;
+}
+
+.Other-link{
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+}
+
+.fav-games{
+    font-size: 30px;
+}
+
+.fav-games a{
+    font-weight: bold;
+}
+
+.fav-games li{
+    font-size: 20px;
+}
+
+.fav-games-des{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.fav-games-rythem{
+    font-size: 25px;
+}
+
+.BDGBP {
+    width: 500px;
 }
 
 }
