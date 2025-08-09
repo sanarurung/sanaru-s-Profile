@@ -14,6 +14,9 @@
     url('./source/font/NotoSansKR-Regular.ttf');
 }
     
+html {
+    scroll-behavior: smooth;
+}
 
 
 @media (max-width: 1024px){
@@ -417,6 +420,10 @@
 
 
 .fav-games-rythem{
+    font-size: 25px;
+}
+
+.fav-api{
     font-size: 25px;
 }
 
@@ -872,6 +879,10 @@ footer{
 }
 
 .fav-games-rythem{
+    font-size: 25px;
+}
+
+.fav-api{
     font-size: 25px;
 }
 
