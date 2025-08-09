@@ -444,6 +444,21 @@ footer {
     line-height: 25px;
 }
 
+.chzzk-api-table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.chzzk-api-table td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.chzzk-api-table th{
+    background-color: #ffdec8;
+}
+
     }
 
 
