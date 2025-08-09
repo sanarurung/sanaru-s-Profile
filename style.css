@@ -415,8 +415,13 @@
     line-height: 30px;
 }
 
+
 .fav-games-rythem{
     font-size: 25px;
+}
+
+.fav-games-rythem1{
+    font-size: 20px;
 }
 
 .BDGBP {
@@ -433,6 +438,10 @@
 
 .naruto-img{
     width: 300px;
+}
+
+footer {
+    line-height: 25px;
 }
 
     }
@@ -851,6 +860,10 @@ footer{
     font-size: 25px;
 }
 
+.fav-games-rythem1 {
+    font-size: 18px;
+}
+
 .BDGBP {
     width: 500px;
 }
@@ -861,6 +874,25 @@ footer{
 
 .naruto-img{
     width: 500px;
+}
+
+footer {
+    line-height: 25px;
+}
+
+.chzzk-api-table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.chzzk-api-table td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.chzzk-api-table th{
+    background-color: #ffdec8;
 }
 
 }
