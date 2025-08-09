@@ -40,7 +40,7 @@
             <li><a href="#api" style="font-weight: normal; color: black; text-decoration-line: none;">치지직 후원 API</a></li>
             <span style="font-size: 19px;">카테고리 클릭 시 빠른 이동이 가능합니다.</span>
             <br><br>
-            <span style="font-size: 17px;">스트리머이신가요? 스트리머용 페이지는 <a href="https://streamer.sanaru.cloud" style="color: black;">여기</a>를 눌러 접속할 수 있습니다.</span>
+            <span style="font-size: 17px;">스트리머이신가요? 스트리머용 페이지는 <a href="https://streamer.sanaru.cloud" style="color: black; font-weight: 400;">여기</a>를 눌러 접속할 수 있습니다.</span>
             <br>
             <span style="font-size: 15px;">Tailscale설정이 완료되었을 경우에 정상 접속이 가능합니다.</span>
         </div>
@@ -72,43 +72,54 @@
         <a class="fav-games-rythem">3. 치지직 후원 API</a>
         <br><br>
         <a class="fav-games-des">치지직 후원 API 리스트는 다음과 같습니다.</a>
+        <br>
+        <span style="font-size: 15px;">본 콘텐츠에 사용된 API는 치지직의 공식 API를 사용하였습니다.</span>
         <br><br>
         <table class="chzzk-api-table">
             <tr>
                 <th>치즈</th>
                 <th>적용 효과</th>
+                <th>설명</th>
             </tr>
             <tr>
                 <td>1,000치즈</td>
                 <td>노오-란 죽순</td>
+                <td>허기를 채워주는 죽순 1개를 지급합니다.</td>
             </tr>
             <tr>
                 <td>2,000치즈</td>
                 <td>다이아 목표치를 1~3개 감소</td>
+                <td>다이아 목표치를 랜덤으로 1~3개를 감소시킵니다.</td>
             </tr>
             <tr>
                 <td>3,000치즈</td>
                 <td>다이아 목표치를 4~6개 추가</td>
+                <td>다이아 목표치를 랜덤으로 4~6개 증가시킵니다.</td>
             </tr>
             <tr>
                 <td>30,000치즈</td>
                 <td>무작위 텔레포트</td>
+                <td>벽에 끼거나 낙하 데미지를 받지 않는 선에서<br>플레이어를 무작위로 텔레포트 시킵니다.</td>
             </tr>
             <tr>
                 <td>50,000치즈</td>
                 <td>랜덤 몹 소환</td>
+                <td>플레이어 주변에 랜덤으로<br>적대적인 몹을 소환시킵니다.</td>
             </tr>
             <tr>
                 <td>100,000치즈</td>
-                <td>미정 서브 퀘스트</td>
+                <td>서브 퀘스트</td>
+                <td>특정 발전 과제를 완료해야 합니다.<br><br>"1. 전해지지 않은 러브레터"<br>달성 조건: 화염구로 가스트를 죽이세요.<br><br>"2. 쉽지 않은 동행"<br>달성 조건: 네더에서 가스트를 구출해 오버월드로<br>안전하게 데려온 다음...<br><span style="font-weight: 700;">죽이세요.</span></td>
             </tr>
             <tr>
                 <td>200,000치즈</td>
                 <td>즉사</td>
+                <td>그 어떠한 수단으로도 방어가 불가능한 데미지를 주어<br>플레이어를 그 자리에서 즉사시킵니다.</td>
             </tr>
             <tr>
                 <td>1,000,000치즈</td>
-                <td>받은김에 끝까지.<br>(위더, 엔더 드래곤 처치, 제한시간 48시간, 인벤 세이브 3회, 클리어 시 챌린지 완료)</td>
+                <td>받은김에 끝까지.<br>(위더, 엔더 드래곤 처치, 제한시간 48시간,<br>인벤 세이브 3회, 클리어 시 챌린지 완료)</td>
+                <td>다이아 할당량을 채우는 것 대신 새로운 목표가 주어집니다.</td>
             </tr>
         </table>
         <br><br>
@@ -134,6 +145,74 @@
             <tr>
                 <td>3개 감소</td>
                 <td>33.3%</td>
+            </tr>
+            <tr>
+                <td>합계</td>
+                <td>100%<br>(소숫점 반올림)</td>
+            </tr>
+        </table>
+        <br><br>
+        <a class="fav-games-des">다이아 목표치 증가</a><br><br>
+        <table class="chzzk-api-table">
+            <tr>
+                <th>대상</th>
+                <th>확률</th>
+            </tr>
+            <tr>
+                <td>4개 증가</td>
+                <td>33.3%</td>
+            </tr>
+            <tr>
+                <td>5개 증가</td>
+                <td>33.3%</td>
+            </tr>
+            <tr>
+                <td>6개 증가</td>
+                <td>33.3%</td>
+            </tr>
+            <tr>
+                <td>합계</td>
+                <td>100%<br>(소숫점 반올림)</td>
+            </tr>
+        </table>
+        <br><br>
+        <a class="fav-games-des">랜덤 몹 소환</a><br><br>
+        <table class="chzzk-api-table">
+            <tr>
+                <th>대상</th>
+                <th>확률</th>
+            </tr>
+            <tr>
+                <td>충전된 크리퍼</td>
+                <td>0.5%</td>
+            </tr>
+            <tr>
+                <td>스트레이</td>
+                <td>1.5%</td>
+            </tr>
+            <tr>
+                <td>워든</td>
+                <td>2%</td>
+            </tr>
+            <tr>
+                <td>호글린</td>
+                <td>5%</td>
+            </tr>
+            <tr>
+                <td>위더 스켈레톤</td>
+                <td>7%</td>
+            </tr>
+            <tr>
+                <td>크리퍼</td>
+                <td>10%</td>
+            </tr>
+            <tr>
+                <td>스켈레톤</td>
+                <td>35%</td>
+            </tr>
+            <tr>
+                <td>좀비</td>
+                <td>39%</td>
             </tr>
             <tr>
                 <td>합계</td>
