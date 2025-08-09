@@ -473,7 +473,7 @@ footer {
     align-items: center;
     left: 85%;
     background-color: rgb(250,250,252);
-    bottom: 125px;
+    bottom: 90px;
     border-radius: 24px;
     transition: linear 0.2s;
     transform: translateX(-50%) scale(1.0);
