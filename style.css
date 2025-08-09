@@ -117,8 +117,8 @@ a, span, th, td {
     }
     
     footer{
-        font-family: "NEXON Lv1 Gothic";
-        font-weight: 100;
+        font-family: " NanumSquareNeo";
+        font-weight: 400;
         text-align: center;
         margin: 50px;
     }
@@ -136,7 +136,7 @@ a, span, th, td {
     }
     
     .inquiry-input input {
-        font-family: 'NEXON Lv1 Gothic';
+        font-family: ' NanumSquareNeo';
         width: 50%;
         height: 40px;
         font-size: 17px;
@@ -156,7 +156,7 @@ a, span, th, td {
     }
     
     .inquiry-input-des textarea {
-        font-family: 'NEXON Lv1 Gothic';
+        font-family: ' NanumSquareNeo';
         width: 50%;
         height: 100px;
         font-size: 17px;
@@ -177,7 +177,7 @@ a, span, th, td {
     }
     
     .inquiry-input-check input {
-        font-family: 'NEXON Lv1 Gothic';
+        font-family: ' NanumSquareNeo';
         font-size: 17px;
         border: 0;
         border-radius: 15px;
@@ -195,7 +195,7 @@ a, span, th, td {
     }
     
     .inquiry-input-sumbit input {
-        font-family: 'NEXON Lv1 Gothic';
+        font-family: ' NanumSquareNeo';
         width: 50%;
         height: 40px;
         font-size: 17px;
@@ -261,7 +261,7 @@ a, span, th, td {
     }
     
     .inquiry-input-sclect-option select {
-        font-family: 'NEXON Lv1 Gothic';
+        font-family: ' NanumSquareNeo';
         width: 50%;
         height: 40px;
         font-size: 17px;
@@ -596,8 +596,8 @@ nav{
 }
 
 footer{
-    font-family: 'NEXON Lv1 Gothic';
-    font-weight: 100;
+    font-family: ' NanumSquareNeo';
+    font-weight: 400;
     text-align: center;
     margin: 50px;
 }
@@ -615,7 +615,7 @@ footer{
 }
 
 .inquiry-input input {
-    font-family: 'NEXON Lv1 Gothic';
+    font-family: ' NanumSquareNeo';
     width: 20%;
     height: 40px;
     font-size: 17px;
@@ -635,7 +635,7 @@ footer{
 }
 
 .inquiry-input-des textarea {
-    font-family: 'NEXON Lv1 Gothic';
+    font-family: ' NanumSquareNeo';
     width: 20%;
     height: 100px;
     font-size: 17px;
@@ -656,7 +656,7 @@ footer{
 }
 
 .inquiry-input-check input {
-    font-family: 'NEXON Lv1 Gothic';
+    font-family: ' NanumSquareNeo';
     font-size: 17px;
     border: 0;
     border-radius: 15px;
@@ -674,7 +674,7 @@ footer{
 }
 
 .inquiry-input-sumbit input {
-    font-family: 'NEXON Lv1 Gothic';
+    font-family: ' NanumSquareNeo';
     width: 20%;
     height: 40px;
     font-size: 17px;
@@ -694,7 +694,7 @@ footer{
 }
 
 .inquiry-input-sclect-option select {
-    font-family: 'NEXON Lv1 Gothic';
+    font-family: ' NanumSquareNeo';
     width: 20%;
     height: 40px;
     font-size: 17px;
