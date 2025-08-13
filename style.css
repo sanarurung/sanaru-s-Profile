@@ -20,6 +20,7 @@
     src: local("NanumSquareNeo"), format('opentype'),
     url('./source/font/NanumSquareNeo/NanumSquareNeoOTF-Rg.otf');
 }
+
     
 html {
     scroll-behavior: smooth;
@@ -991,4 +992,5 @@ footer {
     transition: linear 0.1s;
     transform: translateX(-50%) scale(0.8);
 }
+
 }
