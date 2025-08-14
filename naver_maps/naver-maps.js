@@ -10,8 +10,8 @@ var map = new naver.maps.Map('maps', {
     minZoom: 6
 });
 
-var marker = new naver.maps.Map('maps', {
-    position: map.getCenter(),
+var marker = new naver.maps.Marker('maps', {
+    position: new naver.maps.LatLng(37.660842, 126.993322),
     map: map,
     clickable: false
 });
