@@ -1,8 +1,8 @@
 var mapDiv = document.getElementById('maps');
 
 var map = new naver.maps.Map('maps', {
-    center: new naver.maps.LatLng(37.660842, 126.993322),
-    zoom: 10,
+    center: new naver.maps.LatLng(37.662697, 126.992644),
+    zoom: 13,
     scaleControl: false,
     logoControl: false,
     mapDataControl: false,
@@ -11,7 +11,7 @@ var map = new naver.maps.Map('maps', {
 });
 
 var marker = new naver.maps.Marker('maps', {
-    position: new naver.maps.LatLng(37.660842, 126.993322),
+    position: new naver.maps.LatLng(37.662697, 126.992644),
     map: map,
     clickable: false
 });
