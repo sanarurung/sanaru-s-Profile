@@ -1,4 +1,120 @@
-@media (max-width: 1024px) {
+@media (max-width: 645px) {
+
+    .main-title {
+    width: 100%;
+    height: 80px;
+}
+
+.main-title-text {
+    font-family: 'NanumSquareNeo-Heavy';
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 30%;
+    text-align: center;
+    font-size: 30px;
+    float: left;
+    margin: 0 auto;
+    margin-left: 50px;
+}
+
+.post-title-box{
+    width: 100%;
+}
+
+.post-title {
+    font-family: 'NanumSquareNeo-bold';
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 30%;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    margin-left: 50px;
+}
+
+.post-hr {
+    width: 100%;
+}
+
+.back-to-list {
+    font-weight: 700;
+    float: left;
+    padding-left: 50px;
+    color: black;
+}
+
+.contents-list {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-top: solid 1px #c8c8d5;
+    position: relative;
+}
+
+.contents-kind {
+    display: none;
+}
+
+.contents-list ul {
+    padding: 0px;
+}
+
+.contents-list li {
+    list-style-type: none;
+    border-bottom: solid 1px #c8c8d5;
+}
+
+.contents-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.contents-list span {
+    padding-left: 0px;
+}
+
+.post-img{
+    width: 20px;
+}
+
+.alert-box {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(255, 0, 0, 0.3);
+    border-radius: 15px;
+    display : flex;
+    justify-content : left;
+}
+
+    .alert {
+    float: left;
+    padding-top: 10px;
+    margin-left: 3%;
+    line-height: 20px;
+    word-break: keep-all;
+}
+
+.date {
+    float: right;
+    padding-right: 10px;
+    padding-top: 3px;
+    font-size: 10px;
+}
+
+footer {
+    font-size: 10px;
+    line-height: 15px;
+}
+
+}
+
+@media (min-width: 646px) and (max-width: 1024px) {
 
     .main-title {
     width: 100%;
@@ -86,18 +202,19 @@
 
 .alert-box {
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: rgba(255, 0, 0, 0.3);
     border-radius: 15px;
+    display : flex;
+    justify-content : left;
 }
 
 .alert {
     float: left;
-    display : flex;
-    justify-content : center;
-    margin: 3%;
+    padding-top: 10px;
     margin-left: 3%;
     line-height: 20px;
+    word-break: keep-all;
 }
 
 
@@ -168,7 +285,7 @@ footer {
 
 
 .contents-list {
-    width: 1200px;
+    width: 1024px;
     margin: 0 auto;
     margin-top: 30px;
     border-top: solid 1px #c8c8d5;
@@ -207,13 +324,13 @@ footer {
     height: 80px;
     background-color: rgba(255, 0, 0, 0.3);
     border-radius: 15px;
+    display : flex;
+    justify-content : left;
 }
 
 .alert {
     float: left;
-    display : flex;
-    justify-content : center;
-    margin: 0.9%;
+    padding-top: 10px;
     margin-left: 3%;
     line-height: 20px;
 }

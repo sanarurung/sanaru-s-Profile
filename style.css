@@ -851,8 +851,8 @@ footer{
 
 .Profile {
     width: 1200px;
-    margin: 0 auto;
     margin-top: 55px;
+    padding-left: 15%;
 }
 
 .name {
