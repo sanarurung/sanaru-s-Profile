@@ -84,6 +84,22 @@
     width: 20px;
 }
 
+.alert-box {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(255, 0, 0, 0.3);
+    border-radius: 15px;
+}
+
+.alert {
+    float: left;
+    display : flex;
+    justify-content : center;
+    margin: 3%;
+    margin-left: 3%;
+    line-height: 20px;
+}
+
 
 .date {
     float: right;
@@ -184,6 +200,22 @@ footer {
 
 .post-img{
     width: 20px;
+}
+
+.alert-box {
+    width: 1200px;
+    height: 80px;
+    background-color: rgba(255, 0, 0, 0.3);
+    border-radius: 15px;
+}
+
+.alert {
+    float: left;
+    display : flex;
+    justify-content : center;
+    margin: 0.9%;
+    margin-left: 3%;
+    line-height: 20px;
 }
 
 .date {
